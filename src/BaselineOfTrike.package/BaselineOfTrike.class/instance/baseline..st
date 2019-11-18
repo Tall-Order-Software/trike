@@ -4,5 +4,6 @@ baseline: spec
 
     spec for: #common do: [
         spec
-            package: 'Trike-Models';
+            package: 'Trike-Core';
+				package: 'Trike-Core-Tests' with: [ spec requires: #('Trike-Core') ];
             package: 'Logic-Boolean'].

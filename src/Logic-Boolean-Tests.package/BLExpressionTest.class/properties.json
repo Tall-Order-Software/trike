@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "BEL 9/19/2009 12:19",
+	"super" : "ClassTestCase",
+	"category" : "Logic-Boolean-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BLExpressionTest",
+	"type" : "normal"
+}

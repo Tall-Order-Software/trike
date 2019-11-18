@@ -5,8 +5,8 @@ initialize
 	"self initialize"
 	
 	super initialize.
-	Preferences 
+	"Preferences 
 		addTextPreference: #modelRepositoryURI
 		category: #modeling 
 		default: self defaultModelRepositoryURI
-		balloonHelp: 'location in which to store CASE models'
+		balloonHelp: 'location in which to store CASE models'"

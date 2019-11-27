@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "BrenLarcom 11/27/2019 10:51",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfLogicBoolean",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfLogicBoolean",
+	"type" : "normal"
+}

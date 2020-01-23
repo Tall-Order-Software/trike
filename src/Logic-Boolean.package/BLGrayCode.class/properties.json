@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "BEL 9/19/2009 12:09",
 	"super" : "BLExpression",
-	"category" : "Logic-Boolean",
+	"category" : "Logic-Boolean-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

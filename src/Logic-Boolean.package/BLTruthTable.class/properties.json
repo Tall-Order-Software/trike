@@ -1,6 +1,7 @@
 {
+	"commentStamp" : "",
 	"super" : "BLExpression",
-	"category" : "Logic-Boolean",
+	"category" : "Logic-Boolean-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

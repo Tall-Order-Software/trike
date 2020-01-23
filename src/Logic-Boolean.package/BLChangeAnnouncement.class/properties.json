@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Announcement",
-	"category" : "Logic-Boolean",
+	"category" : "Logic-Boolean-Announcements",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

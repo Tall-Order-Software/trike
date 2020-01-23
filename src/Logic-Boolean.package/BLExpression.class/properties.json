@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "BEL 9/19/2009 11:37",
+	"commentStamp" : "BrenLarcom 11/22/2019 18:59",
 	"super" : "Announcer",
-	"category" : "Logic-Boolean",
+	"category" : "Logic-Boolean-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

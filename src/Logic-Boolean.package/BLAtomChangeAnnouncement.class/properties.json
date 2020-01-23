@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "BLValueChangeAnnouncement",
-	"category" : "Logic-Boolean",
+	"category" : "Logic-Boolean-Announcements",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

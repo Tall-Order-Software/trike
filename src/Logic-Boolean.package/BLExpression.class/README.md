@@ -3,7 +3,6 @@ Logic-Boolean is a simple package for manipulating Boolean expressions.
 FEATURES
 	
 - Construct, compare, simplify, modify and evaluate Boolean expressions. 
-- Use the supplied GenericActions to easily build an interface for things end users are likely to want to do.
 - Use any type as an atom in an expression.
 - Register to receive Announcements.
 
@@ -12,10 +11,7 @@ LIMITATIONS
 - BLClauses with cycles have not been tested; infinite loops seem likely.
 - Simplification and comparison are sometimes expensive; the conditions in which they are expensive are deterministic but have not been explored.
 - The conditions in which parentheses matter when constructing BLExpressions have not been explored.
-- Currently BLTruthTables and BLGrayCodes do not support
-	- Announcements or
-	- editing via GenericActions.
-- Some glue is required to edit atoms using GenericActions.
+- Currently BLTruthTables and BLGrayCodes do not support Announcements.
 - Currently evaluation is only supported when atoms are blocks with no arguments.
 
 CLASSES
@@ -69,49 +65,6 @@ Change notification:
 		children are replaced (both oldChildren and newChildren will be populated).
 	When multiple children are changed at once, only one announcement is sent; it includes the details for all the changes which occurred together.  Subclasses must preserve this behavior.
 	
-GenericAction support:
-	Use 
-		BLClause>>asString to get a human-readable string
-		BLClause>>hasChildren to determine whether a clause has subclauses
-		BLClause>>editingActions:, clauseEditingActions:  or structureEditingActions: with a particular parent to get an OrderedCollection of GenericActions for editing this clause in the context of that parent 
-			clauseEditingActions:		for editing this clause itself
-			structureEditingActions:		for manipulating this clause as a child of the supplied parent
-			editingActions:				for all editing actions
-		BLExpression>>evaluationAction to evaluate the clause
-		
-	The following clauseEditingActions apply to all BLClauses:
-
-		valueModificationAction
-			BLAtomicTerm: value of atom
-			BLCoordinator: type of coordinator
-		negationAction
-		simplificationAction
-	
-		For BLAtomicTerm>>valueModificationAction to work:
-			An atom must register a GenericAction which allows setting the value of the atom.
-			An atom must have any BLAtomicTerm which points to it announce BLAtomChangeAnnouncement whenever its string representation changes. 
-			
-	When parents other than BLCoordinators are used, they must implement the following clauseEditing and structureEditingActions.
-
-	The following clauseEditingActions apply to parents (typically BLCoordinators):
-
-		additionActionNamed: aString
-		
-	The following clauseEditingActions apply to parents, acting on specific children:
-
-		removalActionOn: child
-
-	The following structureEditingActions apply to parents, acting on specific children:
-
-		(likely useful as menus)
-		promotionActionOn: child
-		demotionActionOn: child
-		reorderingUpActionOn: child
-		reorderingDownActionOn: child
-
-		(likely useful for drag & drop)
-		adoptionActionOn: child before: nextChild
-
 EXAMPLES
 
 See BLTest and Trike.

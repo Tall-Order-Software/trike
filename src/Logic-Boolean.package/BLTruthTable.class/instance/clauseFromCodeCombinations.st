@@ -13,7 +13,7 @@ clauseFromCodeCombinations
 		do: [:power | (codeCombinations at: power)
 				do: [:code | terms add: code equivalentClause]].
 	terms
-		ifEmpty: [^BLFalse initializedInstance].
+		ifEmpty: [^BLAtomicTerm on: false].
 	terms size = 1
 		ifTrue: [^ terms anyOne].
 	^ BLOr withSimplifiedChildren: terms

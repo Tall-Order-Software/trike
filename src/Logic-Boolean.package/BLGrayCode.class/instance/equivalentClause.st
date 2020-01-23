@@ -15,7 +15,7 @@ equivalentClause
 				ifTrue: [terms add: (atomicTerms at: i) negated].
 			i := i + 1].
 	terms
-		ifEmpty: [^BLTrue initializedInstance].
+		ifEmpty: [^BLAtomicTerm on: true].
 	terms size = 1
 		ifTrue: [^ terms anyOne].
 	^ BLAnd withSimplifiedChildren: terms

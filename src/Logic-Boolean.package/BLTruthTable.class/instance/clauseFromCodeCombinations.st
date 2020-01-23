@@ -4,7 +4,7 @@ clauseFromCodeCombinations
 	weren't joined into higher order groupings, groupings of two cells, 
 	groupings of four cells, . . . until all the terms are displayed."
 	| terms |
-	self needsWork.
+	self flag: #todo.
 	"Should implement extra step."
 	terms := OrderedCollection new.
 	codeCombinations size - 1
@@ -15,5 +15,5 @@ clauseFromCodeCombinations
 	terms
 		ifEmpty: [^BLFalse initializedInstance].
 	terms size = 1
-		ifTrue: [^ terms only].
+		ifTrue: [^ terms anyOne].
 	^ BLOr withSimplifiedChildren: terms

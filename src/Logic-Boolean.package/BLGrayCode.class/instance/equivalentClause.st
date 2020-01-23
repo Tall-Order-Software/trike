@@ -17,5 +17,5 @@ equivalentClause
 	terms
 		ifEmpty: [^BLTrue initializedInstance].
 	terms size = 1
-		ifTrue: [^ terms only].
+		ifTrue: [^ terms anyOne].
 	^ BLAnd withSimplifiedChildren: terms

@@ -1,4 +1,5 @@
 testing
 isTrue
+	"Answer whether I evaluate to true."
 
-	^false
+	^(self value = true)

@@ -1,6 +1,6 @@
 instance creation
 \/ aClause
-	"Answer a new instance of my class which represents my condition or 
+	"Answer a new instance of me that represents a logical OR of my condition and 
 	that of aClause."
 
 	^self = aClause 
@@ -11,4 +11,4 @@ instance creation
 			newChildren
 				add: self;
 				add: aClause.
-			BLOr withChildren: newChildren]
+			self orClass on: newChildren]

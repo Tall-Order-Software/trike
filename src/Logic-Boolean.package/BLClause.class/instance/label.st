@@ -1,4 +1,5 @@
 accessing
 label
 	"Answer my label."
-	^ 'Clause'
+
+	^ self class label

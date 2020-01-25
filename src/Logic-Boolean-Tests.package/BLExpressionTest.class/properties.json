@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "BEL 9/19/2009 12:19",
 	"super" : "ClassTestCase",
-	"category" : "Logic-Boolean-Tests",
+	"category" : "Logic-Boolean-Tests-Announcements",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

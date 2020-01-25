@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ClassTestCase",
+	"category" : "Logic-Boolean-Tests-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"a",
+		"notA",
+		"anAtom"
+	],
+	"name" : "BLClauseTest",
+	"type" : "normal"
+}

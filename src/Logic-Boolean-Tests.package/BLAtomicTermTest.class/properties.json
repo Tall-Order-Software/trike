@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "BrenLarcom 1/23/2020 13:26",
+	"super" : "BLClauseTest",
+	"category" : "Logic-Boolean-Tests-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BLAtomicTermTest",
+	"type" : "normal"
+}

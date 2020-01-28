@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "AbstractEnvironmentTestCase",
+	"super" : "BLClauseTest",
 	"category" : "Logic-Boolean-Tests-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

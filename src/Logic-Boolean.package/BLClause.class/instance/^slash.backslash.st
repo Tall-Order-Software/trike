@@ -1,11 +1,12 @@
 instance creation
-/\ aClause 
+/\ anObject 
 	"Answer a new instance of my class which represents my condition  
-	and that of aClause."
-	^ aClause
+	AND (in a logical sense) that of aClause."
+	^ anObject
 		ifNotNil: [| newChildren | 
 			newChildren := OrderedCollection new.
 			newChildren add: self;
 				
-				addAllFirstUnlessAlreadyPresent: (Array with: aClause).
+				addAllFirstUnlessAlreadyPresent: (Array with: anObject).
 			BLAnd withChildren: newChildren]
+		ifNil: [ self ]

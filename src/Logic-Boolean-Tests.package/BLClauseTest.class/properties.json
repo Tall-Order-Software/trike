@@ -7,8 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"a",
-		"notA",
-		"anAtom"
+		"notA"
 	],
 	"name" : "BLClauseTest",
 	"type" : "normal"

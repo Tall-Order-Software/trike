@@ -6,5 +6,5 @@ addTerms: aCollection
 					detect: [:entry | entry notNil]])
 		ifTrue: [self error: 'Data would be lost'].
 	atomicTerms addAllFirstUnlessAlreadyPresent: aCollection.
-	grayCodes := BLGrayCode codesFor: self.
+	grayCodes := BLFunctionInputs codesFor: self.
 	truthTable := Array new: grayCodes size

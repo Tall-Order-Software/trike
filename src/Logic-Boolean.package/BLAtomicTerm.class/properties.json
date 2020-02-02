@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "BEL 9/19/2009 12:08",
-	"super" : "BLClause",
+	"commentStamp" : "BrenLarcom 2/1/2020 23:22",
+	"super" : "BLExpression",
 	"category" : "Logic-Boolean-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

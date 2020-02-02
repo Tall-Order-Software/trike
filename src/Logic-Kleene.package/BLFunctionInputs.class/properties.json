@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "BEL 9/19/2009 12:09",
+	"super" : "Announcer",
+	"category" : "Logic-Kleene-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"truthTable",
+		"index",
+		"marked"
+	],
+	"name" : "BLFunctionInputs",
+	"type" : "normal"
+}

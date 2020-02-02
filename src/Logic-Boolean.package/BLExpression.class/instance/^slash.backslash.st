@@ -1,6 +1,12 @@
 instance creation
-/\ anExpression
-	"Answer a new instance of my family which represents my condition  
-	and that of anExpression."
-	
-	self subclassResponsibility
+/\ anObject 
+	"Answer a new instance of my class which represents my condition  
+	AND (in a logical sense) that of aClause."
+	^ anObject
+		ifNotNil: [| newChildren | 
+			newChildren := OrderedCollection new.
+			newChildren add: self;
+				
+				addAllFirstUnlessAlreadyPresent: (Array with: anObject).
+			BLAnd withChildren: newChildren]
+		ifNil: [ self ]

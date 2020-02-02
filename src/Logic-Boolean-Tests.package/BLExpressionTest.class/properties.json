@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "BEL 9/19/2009 12:19",
-	"super" : "ClassTestCase",
-	"category" : "Logic-Boolean-Tests-Announcements",
+	"commentStamp" : "<historical>",
+	"super" : "BLFunctionTest",
+	"category" : "Logic-Boolean-Tests-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"a",
+		"notA"
+	],
 	"name" : "BLExpressionTest",
 	"type" : "normal"
 }

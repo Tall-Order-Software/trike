@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "BEL 9/19/2009 12:05",
-	"super" : "BLCoordinator",
+	"super" : "BLConnective",
 	"category" : "Logic-Boolean-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

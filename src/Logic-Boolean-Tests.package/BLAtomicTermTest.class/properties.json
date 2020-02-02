@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "BrenLarcom 1/23/2020 13:26",
-	"super" : "BLClauseTest",
+	"super" : "BLExpressionTest",
 	"category" : "Logic-Boolean-Tests-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

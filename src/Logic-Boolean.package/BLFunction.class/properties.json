@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "BrenLarcom 1/31/2020 17:01",
+	"super" : "Model",
+	"category" : "Logic-Boolean-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parents"
+	],
+	"name" : "BLFunction",
+	"type" : "normal"
+}

@@ -1,13 +1,11 @@
 {
-	"commentStamp" : "BrenLarcom 11/22/2019 18:59",
-	"super" : "Announcer",
+	"commentStamp" : "BEL 9/19/2009 12:07",
+	"super" : "BLFunction",
 	"category" : "Logic-Boolean-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"parents"
-	],
+	"instvars" : [ ],
 	"name" : "BLExpression",
 	"type" : "normal"
 }

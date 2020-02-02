@@ -1,5 +1,5 @@
 simplification
 simplified
 	"Answer a simplified version of myself."
-
-	self subclassResponsibility
+	^ self
+		ifNotNil: [self asTruthTable equivalentClause]

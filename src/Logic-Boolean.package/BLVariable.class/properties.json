@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "BrenLarcom 2/2/2020 16:40",
+	"super" : "Model",
+	"category" : "Logic-Boolean-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"atom"
+	],
+	"name" : "BLVariable",
+	"type" : "normal"
+}

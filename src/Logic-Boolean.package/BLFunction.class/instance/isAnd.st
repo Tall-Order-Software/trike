@@ -1,4 +1,0 @@
-testing
-isAnd
-
-	^false

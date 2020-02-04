@@ -1,0 +1,3 @@
+accessing
+nameForB
+	^ 11

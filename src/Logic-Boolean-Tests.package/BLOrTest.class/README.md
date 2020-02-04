@@ -1,1 +1,0 @@
-A BLOrTest is a test class for testing the behavior of BLOr

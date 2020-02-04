@@ -1,3 +1,0 @@
-streaming
-asString
-	^ 'AND'

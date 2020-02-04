@@ -1,4 +1,0 @@
-converting
-asGrayCode
-	
-	self subclassResponsibility

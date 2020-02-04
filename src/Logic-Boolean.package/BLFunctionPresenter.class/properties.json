@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "BrenLarcom 2/2/2020 18:07",
+	"super" : "SpPresenterWithModel",
+	"category" : "Logic-Boolean-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tree"
+	],
+	"name" : "BLFunctionPresenter",
+	"type" : "normal"
+}

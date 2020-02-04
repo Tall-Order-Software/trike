@@ -1,3 +1,0 @@
-*Logic-Boolean
-isBooleanExpression
-	^false
